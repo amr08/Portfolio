@@ -85,7 +85,6 @@ header li a {
 		text-shadow: 10px 10px 20px #E6E6E6;
 		font-weight: bold;
 	
-
 }
 	
 #detail {
@@ -132,7 +131,6 @@ header li a {
 	#box2 {
 		margin-left: 290px;
 		margin-top: 145px;
-
 
 	}
 
@@ -214,16 +212,16 @@ aside img{
 	
 }
 
-.asideimg {
-	width: 68px;
-	height: 68px;
+	.asideimg {
+		width: 68px;
+		height: 68px;
 
-}
+	}
 
 	aside img:hover {
 	 	transform: scale(1.1); 
 
-}
+	}
 
 aside ul {
 	padding: 0px;
@@ -263,18 +261,18 @@ button {
 
 }
 
-.button {
-	color: white;
-	font-size: 20px;
-	font-family: "Times", "serif";
-	padding-top: 20px;
+	.button {
+		color: white;
+		font-size: 20px;
+		font-family: "Times", "serif";
+		padding-top: 20px;
 
-}
+	}
 
 	button:hover {
 	 	transform: scale(1.1); 
 
-}
+	}
 
 #user_name, #email {
 	width: 100%;
@@ -299,44 +297,42 @@ button {
 		article img {
 			width: 100%;
 			margin-bottom: 20px;
+
 		}
 
-.photo {
-	width: 350px;
-	height: 300px;
-}
-
-#box1 {
-	width: 350px;
-	margin-top: 235px;
-}
-		#box2 {
-        
-			margin-top: 565px;
-			margin-left: 0;
+		.photo {
 			width: 350px;
+			height: 300px;
 		}
+
+			#box1 {
+				width: 350px;
+				margin-top: 235px;
+			}
+
+			#box2 {
+				margin-top: 565px;
+				margin-left: 0;
+				width: 350px;
+			}
         
-        #box3 { 
-        	
-        	margin-top: 900px; 
-        	width: 350px;
-   	    }
+       		#box3 { 
+        		margin-top: 900px; 
+        		width: 350px;
+   	   		}
 	
+        	#box4 {
+        		margin-left: 0px;
+        		margin-top: 1230px;
+        		width: 350px;
+       		}
 
-        #box4 {
-        	margin-left: 0px;
-        	margin-top: 1230px;
-        	width: 350px;
-        }
-
-		#box5 {
-		
-		margin-top: 1555px;
-		width: 350px;
-		
+			#box5 {
+				margin-top: 1555px;
+				width: 350px;
+				
+			}
 		}
-	}
 
 
 
@@ -355,8 +351,7 @@ button {
 
 		}
 
-		header ul {
-			
+		header ul {	
 			margin-right: 2%;
 
 		}
@@ -398,43 +393,46 @@ button {
 			height: 250px;
 			width: 300px;
 			margin: 20px;
+
 		}
 
 	
-		#box1 {
-			margin-top: 190px;
-			margin-left: 20px;
-			width: 300px;
-		}
+			#box1 {
+				margin-top: 190px;
+				margin-left: 20px;
+				width: 300px;
+			}
 
-		#box2 {
-			margin-top: 190px;
-			margin-left: 360px;
-			width: 300px;
+			#box2 {
+				margin-top: 190px;
+				margin-left: 360px;
+				width: 300px;
 
-		}
+			}
 
-		#box3 {
-			margin-left: 20px;
-			margin-top: 485px;
-			width: 300px;
+			#box3 {
+				margin-left: 20px;
+				margin-top: 485px;
+				width: 300px;
 
-		}
+			}
 
-		#box4 {
- 		margin-left:360px;
- 		margin-top: 485px;
- 		width: 300px;
-		}
+			#box4 {
+	 			margin-left:360px;
+	 			margin-top: 485px;
+	 			width: 300px;
 
-		#box5 {
- 		margin-left:20px;
- 		margin-top: 775px;
- 		width: 300px;
-		}
+			}
+
+			#box5 {
+	 			margin-left:20px;
+	 			margin-top: 775px;
+	 			width: 300px;
+
+			}
 
 		
-	}
+		}
 
 /*phone in landscape*/
 	@media screen and (max-width: 640px) {
@@ -465,44 +463,48 @@ button {
 		
 		article {
 			margin-top: -8%;
+
 		}
 
-.photo {
-	width: 500px;
-	height: 400px;
+		.photo {
+			width: 500px;
+			height: 400px;
 
-	}
-		#box1 {
+		}
+
+			#box1 {
 				width: 500px;
 				margin-top: 340px;
 				margin-left: 20px;
 			}
-	
-	#box2 {
-		width: 500px;
-		margin-top: 790px;
-		margin-left: 20px;
+		
+			#box2 {
+				width: 500px;
+				margin-top: 790px;
+				margin-left: 20px;
 
-	}
-		#box3 {
-			width: 500px;
-		margin-top: 1230px;
-			margin-left: 20px;
-		}
+			}
+
+			#box3 {
+				width: 500px;
+				margin-top: 1230px;
+				margin-left: 20px;
+
+			}
 
 			#box4 {
 				width:500px;
 				margin-left: 20px;
 				margin-top: 1665px;
-			
-		}
+				
+			}
 
-		#box5 {
-			width: 500px;
-			margin-left:20px;
-			margin-top: 2110px;
-		}
+			#box5 {
+				width: 500px;
+				margin-left:20px;
+				margin-top: 2110px;
+			}
 
-	}
-	
+		}
+		
 
