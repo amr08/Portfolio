@@ -5,23 +5,78 @@ body {
 
 }
   
-
- .jumbotron {
- 
- 	background: url("http://images.forwallpaper.com/files/thumbs/preview/92/926792__into-the-mist_p.jpg");
- 	background-size: 100%;
+.jumbotron {
+ 	background-image: url("http://i.huffpost.com/gen/3907628/images/o-BIOLUMINESCENT-WAVES-facebook.jpg");
+ 	height:500px;
  	background-repeat: no-repeat;
- 	height: 500px;
+	background-size: cover;
  	padding: 60px;
- 	margin-top: -21px;
+ 	background-attachment: fixed;
 
- 
- 
  }
 
 
-h5 a:hover {
-text-decoration: none;
-color: white;
+.navbar {
+	background-color: black;
+
+}
+
+h5 {
+	text-align: center;
+
+}
+
+	h5 a:hover {
+	text-decoration: none;
+	color: white;
+
+	}
+
+.jumbotron1 {
+
+	background-image: url("https://raw.githubusercontent.com/amr08/Portfolio/master/assignment2/assets/img/n5207536_36823579_8696.jpg");
+ 	border: 2px solid grey;
+ 	border-radius: 20px;
+ 	background-repeat: no-repeat;
+	background-size: 900px;
+ 	background-attachment: fixed;
+ 	height: 500px;
+ 	margin: 0 auto;
+ 	width: 70%;
+ 	background-position: center;
+ 	height: 600px;
+ 	padding: 20px;
+ 	
+
+}
+
+.wrapper {
+	height: 600px;
+	width: 100%;
+
+}
+
+article {
+	width: 100%;
+	padding: 5%;
+	font-size: 20px;
+	text-align: center;
+	line-height: 40px;
+
+}
+
+img {
+	height: 20%;
+	width: 20%;
+	border-radius: 50%;
+	border: 2px solid white;
+	min-width: 200px;
+
+}
+
+
+#p2detail {
+	text-decoration: line-through;
+
 }
 
