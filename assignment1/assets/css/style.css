@@ -95,15 +95,15 @@ header li a {
 
 .wrapper {
 	padding-top: 130px;
-	margin: 0 auto;
+	width: 960px;
+	margin-left: 100px;
 
 }
 
 .photo {
 	height: 205px;
 	width: 270px;
-	margin: %;
-
+	
 }
 
 	.photo:hover {
@@ -155,9 +155,8 @@ article {
 	background-color: #ffffff;
 	padding: 20px;
 	float: left;
-	margin-left: 100px;
 	border: 2px solid #dddddd;
-	margin-bottom: 130px;
+	margin-bottom: 12%;
 
 }
 
@@ -188,22 +187,25 @@ article p {
 	
 }
 
-	#pdetail {
+	.pdetail {
 		text-align: center;
 		font-weight: bold;
 
 	}
 
+    #p2detail {
+    	text-decoration: line-through;
+
+    }
+
 aside {
-	
+	width: 100%;
 	width:270px;	
 	background-color: #ffffff;
 	float: right;
-	margin-right: 100px;
-	clear: right;
 	border: 2px solid #dddddd;
 	padding: 20px;
-
+	
 }
 
 aside img{
@@ -289,6 +291,12 @@ button {
 /*regular screen*/
 	@media screen and (max-width: 980px) {
 		
+
+
+		aside {
+			margin-right: 18%;
+		}
+
 		article {
 			width: 400px;
 
@@ -335,9 +343,15 @@ button {
 		}
 
 
-
 /*tablet*/
 	@media screen and (max-width: 768px) {
+
+
+		.wrapper {
+			margin: 0px;
+			max-width: 768px;
+
+			}
 		
 		header {
 			position: static;
@@ -357,10 +371,10 @@ button {
 		}
 
 		article {
-			width: 95%;
-			margin-left: 2%;
-			margin-top: -13%;
-
+			width: 98%;
+			margin-left: 9px;
+			margin-top: -15%;
+		
 		}
 
 		article img {
@@ -369,22 +383,21 @@ button {
 		}
 
 		aside {
-			width: 95%;
-			height: 10%;
-			margin-bottom: 18%;
-			margin-top: -13%;
-			margin-right: 3%;
-		
+			float: left;
+			border: 2px solid black;
+			margin-bottom: 15%;
+			margin-top: -8%;
+			margin-left: 1%;
+			width: 98%;
+
 		}
 
 		aside ul {
-	
 			text-align: left;
 
 		}
 
 		aside h2 {
-
 			text-align: left;
 	
 		}
@@ -396,7 +409,6 @@ button {
 
 		}
 
-	
 			#box1 {
 				margin-top: 190px;
 				margin-left: 20px;
@@ -461,8 +473,14 @@ button {
 			
 		}
 		
+		.wrapper {
+			padding: 0px;
+			width: 640px;
+
+		}
+
 		article {
-			margin-top: -8%;
+			margin-top: 0%;
 
 		}
 
@@ -476,6 +494,7 @@ button {
 				width: 500px;
 				margin-top: 340px;
 				margin-left: 20px;
+
 			}
 		
 			#box2 {
@@ -503,6 +522,7 @@ button {
 				width: 500px;
 				margin-left:20px;
 				margin-top: 2110px;
+
 			}
 
 		}

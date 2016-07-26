@@ -1,0 +1,27 @@
+
+
+body {
+	background: black;
+
+}
+  
+
+ .jumbotron {
+ 
+ 	background: url("http://images.forwallpaper.com/files/thumbs/preview/92/926792__into-the-mist_p.jpg");
+ 	background-size: 100%;
+ 	background-repeat: no-repeat;
+ 	height: 500px;
+ 	padding: 60px;
+ 	margin-top: -21px;
+
+ 
+ 
+ }
+
+
+h5 a:hover {
+text-decoration: none;
+color: white;
+}
+
