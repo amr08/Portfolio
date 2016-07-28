@@ -7,15 +7,14 @@ body {
 
 .jumbotron {
  	background-image: url("http://i.huffpost.com/gen/3907628/images/o-BIOLUMINESCENT-WAVES-facebook.jpg");
- 	height: 700px;
+ 	height: 800px;
  	background-repeat: no-repeat;
 	background-size: cover;
- 	padding: 100px;
+ 	padding: 80px;
  	padding-top: 150px;
  	background-attachment: fixed;
 
  }
-
 
 .navbar {
 	background-color: black;
@@ -24,8 +23,15 @@ body {
 	margin-bottom: 0px;
 	position:fixed;
 	width: 100%;
-	z-index: 1;
+	z-index: 2;
+	font-size: 18px;
 	
+}
+
+
+h1 {
+	font-weight: bold;
+
 }
 
 h5 {
@@ -98,10 +104,16 @@ article img {
 }
 
 form {
-	padding: 150px;
-	width: 80%;
-    position: static;
 	
+	width: 90%;
+    margin: 4%;
+    margin-top: 20px;
+    border: 1px solid grey;
+    padding: 20px;
+    border-radius: 20px;
+    background: #1e1e1e;
+    font-weight: bold;
+   
 }
 
 .footer {
@@ -110,11 +122,6 @@ form {
 
 }
 
-aside {
-	margin-left: 25%;
-	margin-right: 25%;
-
-}
 
 aside ul {
 	text-align: center;
@@ -137,13 +144,13 @@ aside li {
 .thumbnail {
 	height: 230px;
 	width: 300px;
+
 }
 
 .photo {
 	height: 400px;
 	width: 300px;
 	position: relative;
-
 
 }
 
@@ -160,6 +167,4 @@ h3 {
 	background-color: #00bc8c;;
 }
 
-.box {
-	border: 2px solid white;
-}
+
