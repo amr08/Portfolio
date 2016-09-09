@@ -138,6 +138,7 @@ aside li {
 .section {
 	padding-top: 150px;
 	margin-bottom: 40px;
+	min-height: 900px;
 
 }
 
@@ -156,11 +157,9 @@ aside li {
 
 #photoAdj {
 	height: 200px;
+
 }
 
-#photoMove {
-	padding-top:5px;
-}
 h3 {
 	position: absolute;
 	z-index: 1;
